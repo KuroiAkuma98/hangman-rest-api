@@ -1,0 +1,9 @@
+2020-01-19 16:20:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GUESSWORD" not found; SQL statement:
+insert into guessword values(1,"AVENGERS","MOVIES") [42102-200]
+2020-01-19 16:20:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GUESSWORD" not found; SQL statement:
+insert into guessword values(2,"IRON MAN","MOVIES") [42102-200]
+2020-01-19 16:20:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GUESSWORD" not found; SQL statement:
+insert into guessword values(3,"THOR","MOVIES") [42102-200]
