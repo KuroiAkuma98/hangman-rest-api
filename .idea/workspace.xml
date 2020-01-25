@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="219c5eb6-c255-40a2-a987-d25c166ad286" name="Default Changelist" comment="" />
+    <list default="true" id="219c5eb6-c255-40a2-a987-d25c166ad286" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/hangman-rest-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazaDanych.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazaDanych.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Hangman/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Hangman/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Hangman/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Hangman/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Hangman/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Hangman/GameStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Hangman/GuessWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Hangman/GuessWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Hangman/HangmanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Hangman/HangmanApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Hangman/HangmanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Hangman.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Hangman/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Hangman/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Hangman/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Hangman/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Hangman/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Hangman/GameStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Hangman/GuessWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Hangman/GuessWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Hangman/HangmanController.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +56,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
@@ -46,7 +68,7 @@
   <component name="RunManager">
     <configuration name="HangmanApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Hangman.HangmanApplication" />
-      <module name="Hangman" />
+      <module name="hangman-rest-api" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,6 +105,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="485" y="92" key="#HangmanApplication" timestamp="1579968985020">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="485" y="92" key="#HangmanApplication/0.0.1536.864@0.0.1536.864" timestamp="1579968985020" />
     <state x="552" y="198" width="816" height="683" key="#Project_Structure" timestamp="1579445739855">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -95,6 +121,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="756" y="400" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1579954174650" />
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579970783833">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1579970783833" />
     <state x="572" y="135" key="CommitChangelistDialog2" timestamp="1579959705966">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -107,21 +137,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1579603400160" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1579565515765">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1579976680005">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579976680005" />
     <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579565515765" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1579565515765">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1579976680005">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1579976680005" />
     <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579565515765" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1579565515765">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1579976679990">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1579976679990" />
     <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579565515765" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1579565515765">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1579976680005">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1579976680005" />
     <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579565515765" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1579565515766">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -147,6 +181,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="115" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579444710288" />
+    <state x="209" y="54" key="new project wizard" timestamp="1579960192769">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="209" y="54" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1579960192769" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1579445092206">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

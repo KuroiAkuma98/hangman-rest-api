@@ -1,22 +1,18 @@
 package com.example.Hangman;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "games")
 public class Game {
-    @Id
-    @GeneratedValue
+
     private Long gameId;
     private String categoryName;
     private int numberOfLives;
     private String wordStatus;
     private String usedLetters;
     private String wordToGuess;
-
+    Game(){}
     Game(Long id,String categoryName,String wordToGuess)
     {
         this.gameId = id;
@@ -28,34 +24,51 @@ public class Game {
 
     }
     //get
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    public Long getGameId() {
+        return gameId;
+    }
+
+    public void setGameId(Long gameId) {
+        this.gameId = gameId;
+    }
+
+    @Column(name = "NUMBER_OF_LIVES")
     public int getNumberOfLives() {
         return numberOfLives;
     }
-    public String getCategoryName() {
-        return categoryName;
-    }
-    public String getUsedLetters() {
-        return usedLetters;
-    }
-    public String getWordStatus() {
-        return wordStatus;
-    }
-    //set
-
-    public void setCategoryName(String categoryName) {
-        this.categoryName = categoryName;
-    }
-
     public void setNumberOfLives(int numberOfLives) {
         this.numberOfLives = numberOfLives;
     }
-
+    @Column(name = "CATEGORY")
+    public String getCategoryName() {
+        return categoryName;
+    }
+    public void setCategoryName(String categoryName) {
+        this.categoryName = categoryName;
+    }
+    @Column(name = "USED_LETTERS")
+    public String getUsedLetters() {
+        return usedLetters;
+    }
     public void setUsedLetters(String usedLetters) {
         this.usedLetters = usedLetters;
     }
-
+    @Column(name = "WORD_STATUS")
+    public String getWordStatus() {
+        return wordStatus;
+    }
     public void setWordStatus(String wordStatus) {
         this.wordStatus = wordStatus;
+    }
+    @Column(name = "WORD_TO_GUESS")
+    public String getWordToGuess() {
+        return wordToGuess;
+    }
+
+    public void setWordToGuess(String wordToGuess) {
+        this.wordToGuess = wordToGuess;
     }
 
     public String hideWord(String wordToGuess){

@@ -5,11 +5,8 @@ import javax.persistence.*;
 @Entity
 @Table(name ="categories")
 public class Category {
-    @Id
-    @Column(name = "ID")
-    @GeneratedValue
+
     private Long categoryId;
-    @Column(name = "NAME")
     private String name;
 
     Category(Long id,String name)
@@ -17,7 +14,10 @@ public class Category {
         this.categoryId = id;
         this.name = name;
     }
-
+    Category(){}
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "ID")
     public Long getId() {
         return categoryId;
     }
@@ -25,7 +25,7 @@ public class Category {
     public void setId(Long id) {
         this.categoryId = id;
     }
-
+    @Column(name = "NAME")
     public String getName() {
         return name;
     }
