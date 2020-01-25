@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.print.DocFlavor;
 import javax.validation.Valid;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @RestController
@@ -37,9 +38,14 @@ public class HangmanController {
     }
 
     @PostMapping("/category")
-    public ResponseEntity create(@Valid @RequestBody Category category)
+    public ResponseEntity create(@RequestBody Map<String,String> body)
     {
-        return ResponseEntity.ok(categoryService.save(category));
+        System.out.println(body.get("categoryId"));
+        System.out.println(body.get("name"));
+        Long id = Integer.toUnsignedLong(Integer.parseInt(body.get("categoryId")));
+        String categoryName = body.get("name");
+        Category category = new Category(id,categoryName);
+        return ResponseEntity.ok().body(categoryService.save(category));
     }
 
     @PutMapping("/category/{id}")

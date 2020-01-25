@@ -1,16 +1,15 @@
 package com.example.Hangman;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name ="categories")
 public class Category {
     @Id
+    @Column(name = "ID")
     @GeneratedValue
     private Long categoryId;
+    @Column(name = "NAME")
     private String name;
 
     Category(Long id,String name)
